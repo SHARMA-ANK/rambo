@@ -26,7 +26,8 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Or Theme.of(context).scaffoldBackgroundColor
+      backgroundColor:
+          Colors.white, // Or Theme.of(context).scaffoldBackgroundColor
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -35,10 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const SizedBox(height: 20),
             const Text(
               "Rambo Browser",
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
         ),
